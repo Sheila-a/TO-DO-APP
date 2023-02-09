@@ -1,0 +1,25 @@
+:root {
+    --h1-color: -webkit-linear-gradient(#eee, #1976d2);
+}
+
+h1 {
+    width: 100%;
+    font-size: 35px;
+    margin-left: 5vw;
+    background: var(--h1-color);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flexx {
+    display: flex;
+    justify-content: center;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w20 {
+    width: 20%;
+}
