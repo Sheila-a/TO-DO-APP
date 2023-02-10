@@ -1,5 +1,5 @@
 :root {
-    --h1-color: -webkit-linear-gradient(#eee, #1976d2);
+    --h1-color: -webkit-linear-gradient(90deg, #eee, #1178df);
 }
 
 h1 {
@@ -22,4 +22,10 @@ h1 {
 
 .w20 {
     width: 20%;
+}
+
+@media screen and (max-width:1075px) {
+    .main-stack {
+        width: 80% !important;
+    }
 }
