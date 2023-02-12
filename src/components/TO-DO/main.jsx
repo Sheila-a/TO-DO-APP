@@ -1,13 +1,10 @@
 import React from "react";
 import "./style/main.css";
 import { Box, Stack } from "@mui/material";
-// import Form from "./utils/form";
 import List from "./utils/list";
-// import CircularIntegration from "./utils/button";
 
 function Main() {
   return (
-    //   <CircularIntegration />
     <Box>
       <Stack my={0}>
         <Stack

@@ -21,7 +21,7 @@ function Form(props) {
 
     // create props to access data in the other components
     props.onSubmit({
-      // this generates a random number within 10000 range
+      // this generates a random number within 10000 range of possibilities for the id. No two items will have same id
       id: Math.floor(Math.random() * 10000),
       text: item,
     });

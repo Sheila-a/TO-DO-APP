@@ -195,6 +195,10 @@ p {
         padding: 11px;
     }
 
+    .formButton.edit {
+        padding: 11px 15px;
+    }
+
     .formButton,
     .formInput,
     .normal-row,
